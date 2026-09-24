@@ -1,0 +1,83 @@
+Folder PATH listing
+Volume serial number is 0EB8-D0DF
+C:\USERS\SANJIVANI UNIVERSITY\DESKTOP\SIH PROJECTS\SIH-ONION-CLASSIFICATION-TEAMNAME-SIHID
+|   .gitattributes
+|   .gitignore
+|   LICENSE
+|   README.md
+|   requirements.txt
+|   
++---Dataset
+|       README.md
+|       
++---Documentation
++---Model
+|   \---Classification
+|       +---ConvNeXtTiny
+|       |       convnexttiny_model.weights.h5
+|       |       
+|       +---DenseNet121
+|       |       onion_densenet121_best_macro_f1.weights.h5
+|       |       
+|       +---EfficientNetV2B0
+|       |       effnetv2b0model.weights.h5
+|       |       
+|       +---ResNet50V2
+|       |       resnet_model.weights.h5
+|       |       
+|       +---Stacking
+|       |       onion_stacking_meta_classifier_best.keras
+|       |       
+|       \---Xception
+|               onion_kaggle_xception_300epochs_balanced.ipynb
+|               xception_model.weights.h5
+|               
++---Screenshot
+|   +---Demo_Video
+|   \---Screenshots
+|       |   Measurement_Sample.csv
+|       |   
+|       \---XAI_GradCAM
+|               integrated_gradcam_130.png
+|               integrated_gradcam_51.png
+|               integrated_gradcam_68.png
+|               integrated_gradcam_heatmap_130.npy
+|               integrated_gradcam_heatmap_51.npy
+|               integrated_gradcam_heatmap_68.npy
+|               integrated_gradcam_index.csv
+|               
+\---SRC
+    +---Classification_App
+    |   |   main.py
+    |   |   
+    |   \---assets
+    |           SMART_Lab.ico
+    |           SMART_Lab.png
+    |           
+    +---Detection_App
+    |       box_tracker.py
+    |       camera.py
+    |       camera_test.py
+    |       detection.py
+    |       gui.py
+    |       main.py
+    |       measurement.py
+    |       run_camera_test.bat
+    |       run_gui.bat
+    |       test_conveyor_box.py
+    |       test_detection.py
+    |       test_onion_detection.py
+    |       
+    +---Hardware
+    |       arduino_servo_control.ino
+    |       
+    +---Installer
+    +---Logo
+    |       SMART_Lab.ico
+    |       SMART_Lab.png
+    |       
+    \---Needs_Review
+            MANUAL_REVIEW.md
+            source_inventory.csv
+            xai_manifest_mislabeled.npy
+            

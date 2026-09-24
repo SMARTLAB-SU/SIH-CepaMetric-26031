@@ -1,0 +1,4 @@
+test_index,image_path,true_class,predicted_class,confidence,output_file
+130,/kaggle/input/datasets/yashraneja2/onion-dataset-combined/Roboflow dataset combined/test/normal/datasets_002156_20230121_084932_jpg.rf.b1f9507ec384713e07d3b723381519d9.jpg,normal,rotten,0.7764409094618215,integrated_gradcam_130.png
+51,/kaggle/input/datasets/yashraneja2/onion-dataset-combined/Roboflow dataset combined/test/normal/datasets_000530_IMG_20250817_140252_jpg.rf.eaf8c3e992170648e14a86f9ef7d1957.jpg,normal,normal,0.9988173271468562,integrated_gradcam_51.png
+68,/kaggle/input/datasets/yashraneja2/onion-dataset-combined/Roboflow dataset combined/test/normal/datasets_000850_IMG_20250817_140209_jpg.rf.9a630774de27b6576d4cb4c33113e3e1.jpg,normal,normal,0.9987904422951743,integrated_gradcam_68.png
